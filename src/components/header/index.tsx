@@ -25,14 +25,14 @@ export function Header() {
         <div className={styles.content}>
           <div className={styles.contentLogo}>
             <Link href="/">Dev Motors</Link>
-            <nav className={styles.nav}>
-              <Link href="/">Home</Link>
-
-              <Link href="/#servicos">Serviços</Link>
-
-              <Link href="/#contatos">Contatos</Link>
-            </nav>
           </div>
+          <nav className={styles.nav}>
+            <Link href="/">Home</Link>
+
+            <Link href="/#servicos">Serviços</Link>
+
+            <Link href="/#contatos">Contatos</Link>
+          </nav>
         </div>
       </div>
     </header>
